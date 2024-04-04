@@ -10,6 +10,8 @@
 --font-weight-bold : 600;
 --font-style: normal;
 --font-size : 18px;
+--font-size-h1 : 38px;
+--font-size-h2 : 28px;
 }
 
 *{
@@ -81,10 +83,10 @@ h1,h2,h3{
     color: var(--neutral-dark-grayish-blue);
 }
 h1{
-    font-size:38px;
+    font-size: var(--font-size-h1)
 }
 h2{
-    font-size: 30px;
+    font-size: var(--font-size-h2)
 }
 li{
     list-style: none;
